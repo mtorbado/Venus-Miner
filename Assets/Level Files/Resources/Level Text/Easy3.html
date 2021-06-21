@@ -1,10 +1,23 @@
 <color=#FFE4A0>public void</color> main (<color=#FFE4A0>String</color>[] args) {
-    robot.<color=#00FFFF>avanza</color>();
-    robot.<color=#00FFFF>avanza</color>();
-    robot.<color=#00FFFF>avanza</color>();
-    <color=#FFE4A0>if</color> (robot.<color=#00FFFF>veRoca</color>()) {
-        robot.<color=#00FFFF>giraIzquierda</color>();
+    int i = 2;
+    int j = 3;
+    funcion1( j );
+    robot.<color=#00FFFF>giraIzquierda</color>();
+    funcion1( i );
+    robot.<color=#00FFFF>giraDerecha</color>();
+    funcion2( j ) ;
+}
+
+<color=#FFE4A0>public void</color> funcion1 (int i) {
+    <color=#FFE4A0>while</color> (i > 0) {
+        robot.<color=#00FFFF>avanza</color>();
+        i--;
     }
-    robot.<color=#00FFFF>avanza</color>();
-    robot.<color=#00FFFF>avanza</color>();
+}
+
+<color=#FFE4A0>public void</color> funcion2 (int j) {
+    <color=#FFE4A0>while</color> (j > 0) {
+        robot.<color=#00FFFF>retrocede</color>();
+        i--;
+    }
 }

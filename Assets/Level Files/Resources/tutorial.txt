@@ -1,20 +1,22 @@
-¡Bienvenido a Mars Miner! En este juego aprenderemos a interpretar código con estructuras condicionales e iterativas.
+¡Bienvenido a Venus Miner! En este juego aprenderemos a interpretar código con métodos y funciones.
 
-Tu misión es guiar a este pequeño robot, el Mars Hoover, para que recoja los valiosos minerales esparcidos por la superficie de Marte.
+Tu misión es guiar a este pequeño robot, el Venus Hoover, para que recoja los valiosos minerales esparcidos por la superficie de Venus.
 
-Aunque el Mars Hoover es un poco terco y no podemos decirle qué hacer. para cada nivel nos indicará los movimientos que hará por su cuenta, en el panel de codigo de la derecha.
+Aunque el Venus Hoover es un poco terco y no podemos decirle qué hacer. para cada nivel nos indicará los movimientos que hará por su cuenta, en el panel de codigo de la derecha.
 Nuestro trabajo es analizar su código y tratar de despejarle e el camino.
 
 Al comenzar cada nivel, el temporizador que se muestra arriba empezará a contar. Cada 30 segundos, tu puntiación se reducirá 50 puntos. ¡Piensa rápido!
 
-Si tienes alguna duda respecto al código del Mars Hoover, podrás acceder al HooverDoc pulsando el botón que aparece en la parte inferior del panel de la derecha.
+Si tienes alguna duda respecto al código del Venus Hoover, podrás acceder al HooverDoc pulsando el botón que aparece en la parte inferior del panel de la derecha.
 
-¡La superficie de Marte está repleta de obstáculos! Estas rocas son pesadas y no podemos moverlas. Tendremos que esquivarlas cuando nos las encontremos.
+¡La superficie de Venus está repleta de obstáculos! Estas rocas son pesadas y no podemos moverlas. Tendremos que esquivarlas cuando nos las encontremos.
 
 Sin embargo, ¡las rocas plateadas son magnéticas! Lo que significa que podemos moverlas con la ayuda de nuestro electroimán.
-Quítalas del medio o úsalas para indicar al Mars Hoover el camino correcto hacia los minerales azules.
+Quítalas del medio o úsalas para indicar al Venus Hoover el camino correcto hacia los minerales azules.
 
-Cuando esté todo listo, ¡pulsa el botón "Start" para que el Mars Hoover empiece a moverse!
+En algunos niveles, tendrás que introducir algunos valores para el código del robot, hazlo utilizando el recuadro situado al lado del botón "Start".
+
+Cuando esté todo listo, ¡pulsa el botón "Start" para que el Venus Hoover empiece a moverse!
 Este botón inicia su secuencia de código, y una vez iniciado no podrá detenerse.
 ¡Espero que hayas quitado esas molestas rocas del medio! Aunque si eres suficientemente rápido... quizá estés a tiempo de mover alguna después.
 

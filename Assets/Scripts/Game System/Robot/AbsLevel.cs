@@ -58,7 +58,8 @@ public abstract class AbsLevel : MonoBehaviour, ILevel {
         try {
             return input.Select(int.Parse).ToArray();
         } catch {
-            return null;
+            int[] zero = new int[1000];
+            return zero;
         }
     }
 }

@@ -1,6 +1,6 @@
-# TFG Juego 1 - Mars Miner
+# TFG Juego 2 - Venus Miner
 
-Mars Miner es un juego desarrollado en Unity como Trabajo de Fin de Grado por Mario Torbado de la Rosa para el grupo GREIDI de la Universidad de Valladolid.
+Venus Miner es un juego desarrollado en Unity como Trabajo de Fin de Grado por Mario Torbado de la Rosa para el grupo GREIDI de la Universidad de Valladolid.
 El juego trata de ser una herramienta para la enseñanza de los alumnos de primer curso de Grado en Ingeniería Informática para la comprensión de estructuras
 de código iterativas y condicionales. Para un análisis en detalle del juego, consulte el apartado correspondiente del TFG. //completar
 
@@ -20,7 +20,7 @@ funciones de Unity. Durante el desarrollo se ha usado el editor Visual Studio Co
 
 ## Edición de Niveles
 
-Mars Miner ha sido diseñado de tal modo que los niveles o pantallas de juego que lo componen puedan modificarse o añadir otros nuevos, sin necesidad de
+Venus Miner ha sido diseñado de tal modo que los niveles o pantallas de juego que lo componen puedan modificarse o añadir otros nuevos, sin necesidad de
 tener que trabajar dentro del editor de Unity ni conocer todo el código del proyecto. Para ello debemos generar 3 archivos por cada nivel y colocarlos en
 la ruta adecuada dentro del proyecto:
 
@@ -95,7 +95,7 @@ Por último, en caso que queramos modificar la puntuación máxima por dificulta
 
 ## Construcción y ejecución del proyecto
 
-Mars Miner está destinado a ser construido como un proyecto WebGL, para su exportación y ejecución desde la plataforma web Greidi de la UVa (https://greidi.infor.uva.es/programajugando/). Para construir una nueva versión del proyecto, debes seguir los siguientes pasos:
+Venus Miner está destinado a ser construido como un proyecto WebGL, para su exportación y ejecución desde la plataforma web Greidi de la UVa (https://greidi.infor.uva.es/programajugando/). Para construir una nueva versión del proyecto, debes seguir los siguientes pasos:
 
 1. Abrir el proyecto en Unity.
 2. Ir a _File_ -> _Build Setings..._
@@ -120,7 +120,7 @@ El repositorio del proyecto puede encontrarse en https://github.com/mtorbado/tfg
 
 ## Colaboradores
 
-* **Oliver L. Sanz San José** - *Música y sonido*
+* **Oliver L. Sanz San José** - *Música*
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
