@@ -15,6 +15,7 @@ Sin embargo, ¡las rocas plateadas son magnéticas! Lo que significa que podemos
 Quítalas del medio o úsalas para indicar al Venus Hoover el camino correcto hacia los minerales azules.
 
 En algunos niveles, tendrás que introducir algunos valores para el código del robot, hazlo utilizando el recuadro situado al lado del botón "Start".
+Si no introduces un valor necesario, será 0 por defecto.
 
 Cuando esté todo listo, ¡pulsa el botón "Start" para que el Venus Hoover empiece a moverse!
 Este botón inicia su secuencia de código, y una vez iniciado no podrá detenerse.
