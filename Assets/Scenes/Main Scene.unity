@@ -3953,7 +3953,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Selecciona una dificultad para comenzar:'
+  m_text: 'Selecciona un nivel para comenzar:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4023,7 +4023,7 @@ MonoBehaviour:
   m_margin: {x: -0.54477924, y: 5.983145, z: 0.05917588, w: -0.19523941}
   m_textInfo:
     textComponent: {fileID: 432448268}
-    characterCount: 40
+    characterCount: 34
     spriteCount: 0
     spaceCount: 4
     wordCount: 5
@@ -6700,7 +6700,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: args[0], args[1], args[2]...
+  m_text: pmtr0, pmtr1, pmtr2, ...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6769,10 +6769,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 5.281279, z: 0, w: 3.509442}
   m_textInfo:
     textComponent: {fileID: 891273027}
-    characterCount: 28
+    characterCount: 24
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 6
+    spaceCount: 3
+    wordCount: 3
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -11872,6 +11872,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e71b278963959474a9c1b098a4a1c9f2, type: 3}
   - {fileID: 21300000, guid: a32e0f4cc65bd3f4ea2de6af8ab0223e, type: 3}
   - {fileID: 21300000, guid: 6a8b26d07168bb347be43a254b8fbbc9, type: 3}
+  - {fileID: 21300000, guid: 15e49bbeb1175d54c8f77086b90e53dd, type: 3}
   - {fileID: 21300000, guid: 07ac257828d8dd346a550cf6dcc9a54f, type: 3}
   - {fileID: 21300000, guid: 09138857ca023164d8a54f089d583b56, type: 3}
 --- !u!1 &1383712749
@@ -14787,7 +14788,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1823400216
 RectTransform:
   m_ObjectHideFlags: 0

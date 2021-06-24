@@ -10,7 +10,7 @@ public class TimerScript : MonoBehaviour {
 
     public const int MAX_PENALTY = 200;
     public const int PENALTY = 50;
-    public const int PENALTY_LAPSE = 30;
+    public const int PENALTY_LAPSE = 60;
 
     int seconds = 0;
     int penalty = 0;
