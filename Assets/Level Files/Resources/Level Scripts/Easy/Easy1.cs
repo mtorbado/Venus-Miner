@@ -14,7 +14,7 @@ public class Easy1 : AbsLevel {
         if (robotActions.IsRockInFront(1) && !CheckLevelFailed()) {
             yield return robotActions.TurnRight();
         }
-        for (int i=0; i < 2 && !CheckLevelFailed(); i++) {
+        for (int i=0; i < 3 && !CheckLevelFailed(); i++) {
             yield return robotActions.MoveFoward();
         }
         if (CheckLevelFailed()) {

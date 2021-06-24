@@ -4,21 +4,30 @@ public class Hard0 : AbsLevel {
 
     public override void Initialize() {
         robotActions = (RobotActions)transform.GetComponent<RobotActions>();
-        oreGoal = 1;
+        oreGoal = 2;
     }
-    
+
     public override IEnumerator Play(string[] args) {
-        
-        while (!CheckLevelPassed() && !CheckLevelFailed()) {
-            if (robotActions.IsRockInFront(1)) {
-                yield return robotActions.TurnLeft();
-            }
-            else {
-                yield return robotActions.MoveFoward();
-            }
+        int[] imput = InputToInt(args);
+        for (int i=0; i < imput[0] && !CheckLevelFailed(); i++) {
+            yield return robotActions.MoveFoward();
+        }
+        yield return robotActions.TurnLeft();
+        for (int i=0; i < imput[1] && !CheckLevelFailed(); i++) {
+            yield return robotActions.MoveFoward();
+        }
+        yield return robotActions.TurnLeft();
+        for (int i=0; i < imput[2] && !CheckLevelFailed(); i++) {
+            yield return robotActions.MoveFoward();
+        }
+        yield return robotActions.TurnRight();
+        for (int i=0; i < imput[3] && !CheckLevelFailed(); i++) {
+            yield return robotActions.MoveFoward();
         }
         if (CheckLevelFailed()) {
             yield return robotActions.BreakAnimation();
+        } else {
+            CheckLevelPassed();
         }
     }
 }

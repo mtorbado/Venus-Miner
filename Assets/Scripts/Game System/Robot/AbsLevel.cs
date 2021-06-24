@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Linq;
 using UnityEngine;
 
@@ -55,10 +56,15 @@ public abstract class AbsLevel : MonoBehaviour, ILevel {
     }
 
     public int[] InputToInt(string[] input) {
+        int[] zero = new int[1000];
         try {
-            return input.Select(int.Parse).ToArray();
+            int[] imput = input.Select(int.Parse).ToArray();
+            for(int i = 0; i < imput.Length; i++) {
+                zero[i] = imput[i];
+            }
+            return zero;
         } catch {
-            return null;
+            return zero;
         }
     }
 }
