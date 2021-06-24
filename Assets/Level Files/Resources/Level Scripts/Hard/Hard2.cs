@@ -22,5 +22,10 @@ public class Hard2 : AbsLevel {
         for (int i=0; i < imput[2] && !CheckLevelFailed(); i++) {
             yield return robotActions.MoveFoward();
         }
+        if (CheckLevelFailed()) {
+            yield return robotActions.BreakAnimation();
+        } else {
+            CheckLevelPassed();
+        }
     }
 }

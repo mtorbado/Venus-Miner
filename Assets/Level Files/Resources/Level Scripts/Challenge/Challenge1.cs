@@ -29,6 +29,9 @@ public class Challenge1 : AbsLevel {
             }
             i--;
         }
+        if (CheckLevelFailed()) {
+            yield return robotActions.BreakAnimation();
+        }
 
 
     }
